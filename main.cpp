@@ -19,7 +19,6 @@ golworld world;
 golworld nworld;
 static uchar* image;
 
-void mkimg(golworld);
 void paintscreen(HWND);
 void first(PSTR);
 void next();

@@ -16,7 +16,6 @@ golworld world = golworld(worldsize[0]*worldsize[1]);
 golworld nworld = golworld(worldsize[0]*worldsize[1]);
 static uchar* image = new uchar [worldsize[0]*worldsize[1]*4];
 
-void mkimg(golworld);
 void paintscreen(HWND);
 void first();
 void next();
